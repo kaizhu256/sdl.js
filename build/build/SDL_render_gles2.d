@@ -1,0 +1,37 @@
+build/SDL_render_gles2.lo: \
+  /mnt/data/root/src/SDL-mirror/src/render/opengles2/SDL_render_gles2.c \
+  /mnt/data/root/src/SDL-mirror/src/render/opengles2/../../SDL_internal.h \
+  /mnt/data/root/src/SDL-mirror/src/render/opengles2/../../dynapi/SDL_dynapi.h \
+  include/SDL_config.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_platform.h \
+  /mnt/data/root/src/SDL-mirror/include/begin_code.h \
+  /mnt/data/root/src/SDL-mirror/include/close_code.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_hints.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_stdinc.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_config.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_opengles2.h \
+  /mnt/data/root/src/SDL-mirror/src/render/opengles2/../SDL_sysrender.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_render.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_rect.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_error.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_pixels.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_rwops.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_video.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_surface.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_blendmode.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_events.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_keyboard.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_keycode.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_scancode.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_mouse.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_joystick.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_gamecontroller.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_quit.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_gesture.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_touch.h \
+  /mnt/data/root/src/SDL-mirror/src/render/opengles2/../SDL_yuv_sw_c.h \
+  /mnt/data/root/src/SDL-mirror/src/render/opengles2/../../video/SDL_blit.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_cpuinfo.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_endian.h \
+  /mnt/data/root/src/SDL-mirror/src/render/opengles2/SDL_shaders_gles2.h \
+  /mnt/data/root/src/SDL-mirror/src/render/opengles2/SDL_gles2funcs.h

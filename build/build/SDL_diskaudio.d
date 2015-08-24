@@ -1,0 +1,22 @@
+build/SDL_diskaudio.lo: \
+  /mnt/data/root/src/SDL-mirror/src/audio/disk/SDL_diskaudio.c \
+  /mnt/data/root/src/SDL-mirror/src/audio/disk/../../SDL_internal.h \
+  /mnt/data/root/src/SDL-mirror/src/audio/disk/../../dynapi/SDL_dynapi.h \
+  include/SDL_config.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_platform.h \
+  /mnt/data/root/src/SDL-mirror/include/begin_code.h \
+  /mnt/data/root/src/SDL-mirror/include/close_code.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_rwops.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_stdinc.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_config.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_error.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_timer.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_audio.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_endian.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_mutex.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_thread.h \
+  /mnt/data/root/src/SDL-mirror/include/SDL_atomic.h \
+  /mnt/data/root/src/SDL-mirror/src/audio/disk/../SDL_audiomem.h \
+  /mnt/data/root/src/SDL-mirror/src/audio/disk/../SDL_audio_c.h \
+  /mnt/data/root/src/SDL-mirror/src/audio/disk/SDL_diskaudio.h \
+  /mnt/data/root/src/SDL-mirror/src/audio/disk/../SDL_sysaudio.h

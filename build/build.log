@@ -1,0 +1,532 @@
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... asmjs-unknown-emscripten
+checking how to print strings... printf
+checking for asmjs-unknown-emscripten-gcc... /mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc accepts -g... yes
+checking for /mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc option to accept ISO C89... none needed
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by /mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc... /mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc
+checking if the linker (/mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... no
+checking for asmjs-unknown-emscripten-dumpbin... no
+checking for asmjs-unknown-emscripten-link... no
+checking for dumpbin... no
+checking for link... link -dump
+checking the name lister (nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to asmjs-unknown-emscripten format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc option to reload object files... -r
+checking for asmjs-unknown-emscripten-objdump... no
+checking for objdump... objdump
+checking how to recognize dependent libraries... unknown
+checking for asmjs-unknown-emscripten-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for asmjs-unknown-emscripten-ar... /mnt/data/src/emsdk/emscripten/tag-1.34.4/emar
+checking for archiver @FILE support... no
+checking for asmjs-unknown-emscripten-strip... no
+checking for strip... strip
+checking for asmjs-unknown-emscripten-ranlib... /mnt/data/src/emsdk/emscripten/tag-1.34.4/emranlib
+checking for gawk... no
+checking for mawk... mawk
+checking command to parse nm output from /mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc object... failed
+checking for sysroot... no
+checking for asmjs-unknown-emscripten-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... /mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc -E
+checking for ANSI C header files... no
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if /mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc supports -fno-rtti -fno-exceptions... yes
+checking for /mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc option to produce PIC... -fPIC -DPIC
+checking if /mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc PIC flag -fPIC -DPIC works... yes
+checking if /mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc static flag -static works... yes
+checking if /mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc supports -c -o file.o... yes
+checking if /mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc supports -c -o file.o... (cached) yes
+checking whether the /mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc linker (/mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... yes
+checking dynamic linker characteristics... ERROR    root: [31mno input files
+note that input files without a known suffix are ignored, make sure your input files end with one of: ('.c', '.C', '.i', '.cpp', '.cxx', '.cc', '.c++', '.CPP', '.CXX', '.CC', '.C++', '.ii', '.m', '.mi', '.mm', '.mii', '/dev/null', '.bc', '.o', '.obj', '.lo', '.dylib', '.so', '.a', '.ll', '.h', '.hxx', '.hpp', '.hh', '.H', '.HXX', '.HPP', '.HH')[0m
+no
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... no
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for asmjs-unknown-emscripten-gcc... (cached) /mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether /mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc accepts -g... (cached) yes
+checking for /mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc option to accept ISO C89... (cached) none needed
+checking whether we are using the GNU C++ compiler... yes
+checking whether /mnt/data/src/emsdk/emscripten/tag-1.34.4/em++ accepts -g... yes
+checking how to run the C++ preprocessor... /mnt/data/src/emsdk/emscripten/tag-1.34.4/em++ -E
+checking for ld used by /mnt/data/src/emsdk/emscripten/tag-1.34.4/em++... /mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc
+checking if the linker (/mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc) is GNU ld... yes
+ERROR    root: [31mno input files
+note that input files without a known suffix are ignored, make sure your input files end with one of: ('.c', '.C', '.i', '.cpp', '.cxx', '.cc', '.c++', '.CPP', '.CXX', '.CC', '.C++', '.ii', '.m', '.mi', '.mm', '.mii', '/dev/null', '.bc', '.o', '.obj', '.lo', '.dylib', '.so', '.a', '.ll', '.h', '.hxx', '.hpp', '.hh', '.H', '.HXX', '.HPP', '.HH')[0m
+checking whether the /mnt/data/src/emsdk/emscripten/tag-1.34.4/em++ linker (/mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc) supports shared libraries... no
+checking for /mnt/data/src/emsdk/emscripten/tag-1.34.4/em++ option to produce PIC... -fPIC -DPIC
+checking if /mnt/data/src/emsdk/emscripten/tag-1.34.4/em++ PIC flag -fPIC -DPIC works... yes
+checking if /mnt/data/src/emsdk/emscripten/tag-1.34.4/em++ static flag -static works... yes
+checking if /mnt/data/src/emsdk/emscripten/tag-1.34.4/em++ supports -c -o file.o... yes
+checking if /mnt/data/src/emsdk/emscripten/tag-1.34.4/em++ supports -c -o file.o... (cached) yes
+checking whether the /mnt/data/src/emsdk/emscripten/tag-1.34.4/em++ linker (/mnt/data/src/emsdk/emscripten/tag-1.34.4/emcc) supports shared libraries... no
+checking dynamic linker characteristics... no
+checking how to hardcode library paths into programs... immediate
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether make sets $(MAKE)... yes
+checking for asmjs-unknown-emscripten-windres... no
+checking for windres... no
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for working volatile... yes
+checking for GCC -MMD -MT option... yes
+checking for linker option --no-undefined... yes
+checking for ANSI C header files... (cached) no
+checking for sys/types.h... (cached) yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking for stdlib.h... (cached) yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking for memory.h... (cached) yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking for stdint.h... (cached) yes
+checking ctype.h usability... yes
+checking ctype.h presence... yes
+checking for ctype.h... yes
+checking math.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+checking iconv.h usability... yes
+checking iconv.h presence... yes
+checking for iconv.h... yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking for size_t... yes
+checking for M_PI in math.h... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for working memcmp... no
+checking for working strtod... no
+checking for pow... yes
+checking for mprotect... yes
+checking for malloc... yes
+checking for calloc... yes
+checking for realloc... yes
+checking for free... yes
+checking for getenv... yes
+checking for setenv... yes
+checking for putenv... yes
+checking for unsetenv... yes
+checking for qsort... yes
+checking for abs... yes
+checking for bcopy... yes
+checking for memset... yes
+checking for memcpy... yes
+checking for memmove... yes
+checking for strlen... yes
+checking for strlcpy... yes
+checking for strlcat... yes
+checking for strdup... yes
+checking for _strrev... no
+checking for _strupr... no
+checking for _strlwr... no
+checking for strchr... yes
+checking for strrchr... yes
+checking for strstr... yes
+checking for itoa... no
+checking for _ltoa... no
+checking for _uitoa... no
+checking for _ultoa... no
+checking for strtol... yes
+checking for strtoul... yes
+checking for _i64toa... no
+checking for _ui64toa... no
+checking for strtoll... yes
+checking for strtoull... yes
+checking for atoi... yes
+checking for atof... yes
+checking for strcmp... yes
+checking for strncmp... yes
+checking for _stricmp... no
+checking for strcasecmp... yes
+checking for _strnicmp... no
+checking for strncasecmp... yes
+checking for vsscanf... yes
+checking for vsnprintf... yes
+checking for fseeko... yes
+checking for fseeko64... yes
+checking for sigaction... yes
+checking for setjmp... no
+checking for nanosleep... yes
+checking for sysconf... yes
+checking for sysctlbyname... no
+checking for pow in -lm... yes
+checking for atan... yes
+checking for atan2... yes
+checking for acos... yes
+checking for asin... yes
+checking for ceil... yes
+checking for copysign... yes
+checking for cos... yes
+checking for cosf... yes
+checking for fabs... yes
+checking for floor... yes
+checking for log... yes
+checking for pow... (cached) yes
+checking for scalbn... yes
+checking for sin... yes
+checking for sinf... yes
+checking for sqrt... yes
+checking for sqrtf... yes
+checking for tan... yes
+checking for tanf... yes
+checking for iconv_open in -liconv... yes
+checking for iconv... yes
+checking for struct sigaction.sa_sigaction... yes
+checking for GCC builtin atomic operations... yes
+checking for GCC -fvisibility=hidden option... yes
+checking for dlopen... yes
+checking for dlopen in -lc... yes
+checking for clock_gettime in -lrt... yes
+checking for EGL support... yes
+checking for OpenGL ES v2 headers... yes
+checking for GCC -Wall option... yes
+checking for necessary GCC -Wno-multichar option... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating sdl2-config
+config.status: creating sdl2-config.cmake
+config.status: creating SDL2.spec
+config.status: creating sdl2.pc
+config.status: creating include/SDL_config.h
+config.status: executing libtool commands
+config.status: executing sdl2_config commands
+config.status: executing summary commands
+SDL2 Configure Summary:
+Building Static Libraries
+Enabled modules : atomic audio video render events joystick haptic power filesystem timers file loadso
+Assembly Math   :
+Audio drivers   : emscripten disk dummy
+Video drivers   : emscripten dummy opengl_es2
+Input drivers   :
+Using libudev   : NO
+Using dbus      : NO
+Using ibus      : NO
+/bin/bash ../build-scripts/mkinstalldirs build
+mkdir -p -- build
+/bin/bash ../build-scripts/updaterev.sh
+  CC     build/SDL.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_assert.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_error.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_hints.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_log.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_atomic.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_spinlock.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_audio.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_audiocvt.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_audiodev.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_audiotypecvt.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_mixer.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_wave.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_cpuinfo.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_dynapi.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_clipboardevents.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_dropevents.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_events.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_gesture.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_keyboard.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_mouse.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_quit.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_touch.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_windowevents.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_rwops.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_haptic.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_gamecontroller.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_joystick.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/e_atan2.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/e_log.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/e_pow.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/e_rem_pio2.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/e_sqrt.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/k_cos.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/k_rem_pio2.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/k_sin.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/k_tan.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/s_atan.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/s_copysign.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/s_cos.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/s_fabs.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/s_floor.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/s_scalbn.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/s_sin.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/s_tan.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_power.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_d3dmath.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_render.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_yuv_mmx.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_yuv_sw.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_render_d3d.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_render_d3d11.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_render_gl.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_shaders_gl.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_render_gles.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_render_gles2.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_shaders_gles2.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_render_psp.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_blendfillrect.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_blendline.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_blendpoint.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_drawline.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_drawpoint.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_render_sw.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_rotate.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_getenv.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_iconv.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+/mnt/data/root/src/SDL-mirror/src/stdlib/SDL_iconv.c:70:46: warning: passing 'const char **' to parameter of type 'char **' discards qualifiers in nested pointer types [-Wincompatible-pointer-types-discards-qualifiers]
+    retCode = iconv((iconv_t) ((size_t) cd), inbuf, inbytesleft, outbuf, outbytesleft);
+                                             ^~~~~
+/mnt/data/src/emsdk/emscripten/tag-1.34.4/system/include/libc/iconv.h:17:40: note: passing argument to parameter here
+size_t iconv(iconv_t, char **__restrict, size_t *__restrict, char **__restrict, size_t *__restrict);
+                                       ^
+1 warning generated.
+  CC     build/SDL_malloc.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_qsort.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_stdlib.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_string.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_thread.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_timer.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_RLEaccel.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_blit.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_blit_0.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_blit_1.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_blit_A.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_blit_N.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_blit_auto.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_blit_copy.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_blit_slow.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_bmp.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_clipboard.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_egl.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_fillrect.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_pixels.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_rect.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_shape.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_stretch.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_surface.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_video.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_emscriptenevents.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_emscriptenframebuffer.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_emscriptenmouse.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_emscriptenopengles.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+/mnt/data/root/src/SDL-mirror/src/video/emscripten/SDL_emscriptenopengles.c:46:5: warning: incompatible pointer types assigning to 'void *(*)(const char *)' from '__eglMustCastToProperFunctionPointerType (const char *)' [-Wincompatible-pointer-types]
+    LOAD_FUNC(eglGetProcAddress);
+    ^         ~~~~~~~~~~~~~~~~~
+/mnt/data/root/src/SDL-mirror/src/video/emscripten/SDL_emscriptenopengles.c:31:47: note: expanded from macro 'LOAD_FUNC'
+#define LOAD_FUNC(NAME) _this->egl_data->NAME = NAME;
+                                              ^
+1 warning generated.
+  CC     build/SDL_emscriptenvideo.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_emscriptenaudio.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_nullevents.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_nullframebuffer.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_nullvideo.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_diskaudio.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_dummyaudio.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_sysloadso.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_syspower.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_sysjoystick.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_sysfilesystem.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_systimer.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_syshaptic.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_syscond.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_sysmutex.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_syssem.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_systhread.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_systls.lo
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  LTLINK build/libSDL2.la
+  CC     build/SDL_dummy_main.o
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  AR     build/libSDL2main.a
+  RANLIB build/libSDL2main.a
+  CC     build/SDL_test_assert.o
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_test_common.o
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_test_compare.o
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_test_crc32.o
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_test_font.o
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_test_fuzzer.o
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_test_harness.o
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_test_imageBlit.o
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_test_imageBlitBlend.o
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_test_imageFace.o
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_test_imagePrimitives.o
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_test_imagePrimitivesBlend.o
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_test_log.o
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_test_md5.o
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  CC     build/SDL_test_random.o
+WARNING  root: [33m-I or -L of an absolute path "-I/mnt/data/root/src/SDL-mirror/include" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.[0m
+  AR     build/libSDL2_test.a
+  RANLIB build/libSDL2_test.a
